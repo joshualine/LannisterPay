@@ -1,0 +1,25 @@
+{
+  "name": "lannisterpay",
+  "version": "1.0.0",
+  "description": "A service meant to calculate split payment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "express.js",
+    "nodejs"
+  ],
+  "author": "Joshua Chinwendu",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
